@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3000/tasks';
+const API_BASE_URL = 'https://th-work-backend.onrender.com/tasks';
 
 // Fetches tasks from the backend
 export const getTasks = async (filters = {}) => {
