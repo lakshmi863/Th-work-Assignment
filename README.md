@@ -50,10 +50,17 @@ Deployment on Render.com
 This project is deployed using a two-service strategy on Render:
 Backend (Web Service):
 Root Directory: Backend
+
 Build Command: npm install
+
 Start Command: npm start
+
 Render Disk: A persistent disk is attached to store the task_tracker.db SQLite file, ensuring data persistence across deploys.
+
 Frontend (Static Site):
+
 Root Directory: task
+
 Build Command: npm run build
+
 Publish Directory: build
